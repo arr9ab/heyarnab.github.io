@@ -2,24 +2,26 @@
 <html lang="en">
 <head>
     <title>yes</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+        video {
+            transform: scale(0.5);
+            transform-origin: center;
+            max-height: 90vh; 
+            max-width: 90vw; 
+        }
+    </style>
 </head>
 <body>
-    <video width="648" height="1152" autoplay muted loop preload="auto" >
-       <source src="urmom.mp4">
+    <video width="648" height="1152" autoplay muted loop preload="auto">
+        <source src="urmom.mp4" type="video/mp4">
     </video>
 </body>
-  <style>
-    body {
-      margin: 0; 
-      min-height: 100vh;
-      display: flex; 
-      justify-content: center; 
-      align-items: center;
-      background-color: black;
-    }
-    video {
-      transform: scale(0.5); 
-      transform-origin: center;
-    }
-  </style>
 </html>
